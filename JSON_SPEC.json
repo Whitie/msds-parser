@@ -1,0 +1,76 @@
+{
+  "agw": null, # float in mg/m3
+  "art_name": "Acetone",
+  "art_num": "", # str
+  "betrsichv": "", # str z.B. entzündlich
+  "bgw": null, # float in mg/L
+  "boiling": [
+    56.0, # in °C
+    null # in °C (Bereich: [56.0, 61.0])
+  ],
+  "bulk_density": null, # [float kg/m3, int Ref. Temp.]
+  "cas": "67-64-1",
+  "color": "", # str
+  "density": [
+    0.79, # float in g/cm3
+    20 # int Ref. Temp.
+  ],
+  "eg_num": "200-662-2",
+  "euh": [
+    "EUH066"
+  ],
+  "formula": "C3H6O",
+  "h": [
+    "H225",
+    "H319",
+    "H336"
+  ],
+  "inchi": "InChI=1S/C3H6O/c1-3(2)4/h1-2H3",
+  "inchikey": "CSCPPACGZOOCGX-UHFFFAOYSA-N",
+  "ioelv": null, # float in mg/m3
+  "iupac_de": "",
+  "iupac_en": "propan-2-one",
+  "kemler": "", # str
+  "lgk_trgs510": "", # str Lagerklasse
+  "melting": [
+    -95.0, # wie boiling
+    null
+  ],
+  "molmass": 58.07914, # float in g/mol
+  "name": "Aceton",
+  "name_en": "Acetone",
+  "odor": "s\u00fc\u00dflich",
+  "p": [
+    "P210",
+    "P240",
+    "P261",
+    "P280",
+    "P305+P351+P338"
+  ],
+  "pc_cid": 180, # int PubChem CID
+  "producer": "acros",
+  "review_date": "2011-03-15",
+  "signal": "Gefahr",
+  "smiles": "CC(=O)C",
+  "solubility_h2o": "", # wie density
+  "source": "C:\\Container\\Projekte\\sdb-env\\sdb-parser\\SDB\\SDB Aceton.pdf",
+  "state": "fl\u00fcssig",
+  "structure": "C:\\Container\\Projekte\\sdb-env\\sdb-parser\\sdb_json\\a\\Aceton SDB.png",
+  "symbols": [
+    "GHS07",
+    "GHS02"
+  ],
+  "synonyms": [
+    "2-Propanone"
+  ],
+  "vwvws": "", # int
+  "wgk": "" # int
+}
+
+Wiki Link:
+Wenn http://de.wikipedia.org/wiki/<name> 404 liefert, dann
+auf http://de.wikipedia.org/wiki/Spezial:Suche/<name> verlinken
+
+PubChem Link:
+http://pubchem.ncbi.nlm.nih.gov/compound/<pc_cid>
+

@@ -1,0 +1,13 @@
+CherryPy==11.0.0
+PubChemPy==1.0.4
+certifi==2017.4.17
+chardet==3.0.4
+cheroot==5.7.0
+idna==2.5
+portend==2.1.2
+pypiwin32==219
+pytz==2017.2
+requests==2.18.1
+six==1.10.0
+tempora==1.8
+urllib3==1.21.1
