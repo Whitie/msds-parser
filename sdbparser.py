@@ -25,8 +25,12 @@ import p_merck
 import p_sigma
 
 
-GS_BIN = r'C:\Users\wet\Downloads\Ghostscript\bin\gswin64c.exe'
-TESS_BIN = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
+if os.name == 'nt':
+    GS_BIN = r'C:\Users\wet\Downloads\Ghostscript\bin\gswin64c.exe'
+    TESS_BIN = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
+else:
+    GS_BIN = 'gsc'
+    TESS_BIN = 'tesseract'
 
 _PATH = os.path.dirname(os.path.abspath(__file__))
 STORE_PATH = os.path.join(_PATH, 'sdb_json')
@@ -394,4 +398,3 @@ if __name__ == '__main__':
     end = time.time()
     minutes, seconds = divmod(end - start, 60)
     print('Duration: {}min {:.1f}s'.format(int(minutes), seconds))
-

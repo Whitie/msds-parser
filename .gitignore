@@ -128,3 +128,5 @@ dmypy.json
 # Own stuff
 SDB_Test/*
 test/*
+.secret
+
